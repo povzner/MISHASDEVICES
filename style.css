@@ -1,0 +1,57 @@
+*{
+    margin: 0%;
+   padding: 0%; 
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-image: url("SKY.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center ;
+}
+.menu{
+    background-color: #ffffffaa;
+    background: rgb(63,94,251);
+background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    width: 300px;
+    height: 100%;
+    position: fixed;
+    top:0px ;
+    border-radius: 50px;
+}
+.content{
+    background-color: maroon;
+width: calc(100% - 300px);
+margin-left: 300px;
+}
+.menu a{
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    text-align:center ;
+    margin: auto;
+border-radius: 100px;
+line-height: 100px;
+display: block;
+color: rgb(5, 153, 5);
+margin-bottom: 20px;
+text-decoration: none;
+transition: 0.5s;
+font-family: 'Righteous', cursive;
+}
+.menu a:hover{
+    background-color: maroon;
+} 
+.menu h2{
+    text-align: center;
+    margin-top: 50px;
+}
+.content img{
+    width: 100%;
+}
+h2{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: 'Righteous', cursive;
+}
